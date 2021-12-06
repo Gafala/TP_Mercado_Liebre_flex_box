@@ -1,0 +1,41 @@
+@import url(./styles.css);
+:root{
+    --amarillo : #EAC926;
+    --azul : #03264C;
+    --celeste : #1259C3;
+    --gris-oscuro : #666;
+    --gris-claro : #EBEBEB;
+    --verde : #39B54A;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 400px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    border: none;
+    margin-bottom: 45px;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+button {
+    background-color: var(--celeste);
+    color: var(--gris-claro);
+    width: 500px;
+    height: 35px;
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 17px;
+    border: none;
+    text-align: center;
+}

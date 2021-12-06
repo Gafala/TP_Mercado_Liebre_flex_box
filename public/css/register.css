@@ -1,0 +1,59 @@
+@import url(./styles.css);
+:root{
+    --amarillo : #EAC926;
+    --azul : #03264C;
+    --celeste : #1259C3;
+    --gris-oscuro : #666;
+    --gris-claro : #EBEBEB;
+    --verde : #39B54A;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+input{
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+.caja-perfil label{
+    width: 25%;
+}
+
+.caja-intereses{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-label{
+    color: #000000;
+    font-weight: bold;
+}
+input{
+    width: 265px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.caja-perfil{
+    text-align: center;
+}
+.caja-perfil label {
+    width: 25%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.opciones-perfil{
+    display: flex;
+    justify-content: center;
+}
